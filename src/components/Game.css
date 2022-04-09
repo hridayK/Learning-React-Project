@@ -1,0 +1,28 @@
+#restart-game{
+    visibility: collapse;
+    padding: 1%;
+    background-color: black;
+    color: rgb(234, 202, 106);
+    font-size: 1.5em;
+    outline: aliceblue;
+    border-radius: 20px;
+    border: white solid 3px;
+    width: 15vw;
+    font-weight: 900;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+#restart-game:hover{
+    background-color: rgb(234, 202, 106);
+    color: black;
+    border-color: black;
+}
+
+@media screen and (max-width: 600px) {
+    #restart-game {
+        width: 50vw;
+        padding: 3%;
+    }
+}
+    

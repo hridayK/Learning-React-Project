@@ -1,0 +1,25 @@
+.square{
+    width: 14vw;
+    height: 23vh;
+    color: white;
+    background-color: rgb(49, 41, 41);
+    border-radius: 10px;
+    border-color: black;
+    margin: 2px;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.square:hover{
+    background-color: rgb(79, 72, 72);
+}
+
+@media screen and (max-width: 600px) {
+    .square {
+        font-size: 48px;
+        margin: 0.3%;
+        width: 30vw;
+        height: 15vh;
+        scale: 1;
+    }
+}
